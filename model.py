@@ -8,7 +8,9 @@ from keras.utils import np_utils
 
 
 # preprocessing
-filename = "example.txt"
+filename = sys.argv[1] if len(sys.argv) >= 2 else "example.txt"
+epochs = int(sys.argv[2]) if len(sys.argv) == 3 else 20
+
 raw_text = open(filename).read().lower()
 
 chars = sorted(list(set(raw_text)))
@@ -50,4 +52,4 @@ filepath="weights-improvement-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
-model.fit(X, y, epochs=20, batch_size=128, callbacks=callbacks_list)
+model.fit(X, y, epochs=epochs, batch_size=128, callbacks=callbacks_list)
