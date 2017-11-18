@@ -1,6 +1,8 @@
 # vscode files
 .vscode
-
+# model and others
+weights-improvement*
+total.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
