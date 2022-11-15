@@ -150,7 +150,7 @@ snowballstemmer==1.2.1
 sockjs-tornado==1.0.3
 Sphinx==1.4.6
 spyder==3.2.1
-SQLAlchemy==1.0.13
+SQLAlchemy==1.2.18
 statsmodels==0.8.0
 sympy==1.0
 tables==3.4.2
@@ -169,3 +169,4 @@ xlrd==1.0.0
 XlsxWriter==0.9.3
 xlwings==0.10.0
 xlwt==1.1.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
