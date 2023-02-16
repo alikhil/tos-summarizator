@@ -37,7 +37,7 @@ dask==0.15.4
 datashape==0.5.2
 decorator==4.0.10
 dill==0.2.5
-Django==1.4
+Django==3.2.18
 django-registration==2.2
 django-tastypie==0.14.0
 docutils==0.12
@@ -162,7 +162,7 @@ tornado==4.4.1
 traitlets==4.3.0
 unicodecsv==0.14.1
 wcwidth==0.1.7
-Werkzeug==0.11.11
+Werkzeug==2.2.3
 widgetsnbextension==1.2.6
 wrapt==1.10.6
 xlrd==1.0.0
