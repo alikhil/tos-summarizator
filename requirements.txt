@@ -86,8 +86,8 @@ nb-conda-kernels==2.0.0
 nbconvert==4.2.0
 nbformat==4.1.0
 nbpresent==3.0.2
-networkx==1.11
-nltk==3.2.1
+networkx==2.6
+nltk==3.6.6
 nose==1.3.7
 notebook==4.2.3
 numba==0.34.0+5.g1762237
@@ -105,7 +105,7 @@ patsy==0.4.1
 pep8==1.7.0
 pexpect==4.0.1
 pickleshare==0.7.4
-Pillow==3.3.1
+Pillow==9.2.0
 pkginfo==1.3.2
 ply==3.9
 prompt-toolkit==1.0.3
