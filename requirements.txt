@@ -37,7 +37,7 @@ dask==0.15.4
 datashape==0.5.2
 decorator==4.0.10
 dill==0.2.5
-Django==1.4
+Django==3.2.22
 django-registration==2.2
 django-tastypie==0.14.0
 docutils==0.12
